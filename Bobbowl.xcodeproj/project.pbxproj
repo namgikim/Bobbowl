@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4F22D853028797E1F55E3F /* Pods_Bobbowl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F41C503647B94E0B60D8DE1 /* Pods_Bobbowl.framework */; };
+		6818F7B12733D95D00586261 /* AddTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6818F7B02733D95D00586261 /* AddTabViewController.swift */; };
 		68481DBA272FB86E00D59853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68481DB9272FB86E00D59853 /* AppDelegate.swift */; };
 		68481DC1272FB86E00D59853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68481DBF272FB86E00D59853 /* Main.storyboard */; };
 		68481DC3272FB87100D59853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68481DC2272FB87100D59853 /* Assets.xcassets */; };
 		68481DC6272FB87100D59853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68481DC4272FB87100D59853 /* LaunchScreen.storyboard */; };
 		68481DD2272FC47C00D59853 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68481DD1272FC47C00D59853 /* AlbumViewController.swift */; };
 		68481DDC272FC8C200D59853 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68481DDB272FC8C200D59853 /* AlbumCollectionViewCell.swift */; };
+		68481DE2272FE02A00D59853 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68481DE1272FE02A00D59853 /* PostViewController.swift */; };
+		68481DE5272FE6A600D59853 /* Constrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68481DE4272FE6A600D59853 /* Constrants.swift */; };
+		68481DEC272FF64900D59853 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68481DEB272FF64900D59853 /* CalendarViewController.swift */; };
+		68481DEF272FF67D00D59853 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68481DEE272FF67D00D59853 /* CalendarCollectionViewCell.swift */; };
+		6853AEC92738E65C008BA8FF /* PostMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853AEC82738E65C008BA8FF /* PostMainCollectionViewCell.swift */; };
+		687E357B27311B18009C75F2 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E357A27311B18009C75F2 /* PostCollectionViewCell.swift */; };
+		687E358727315C0B009C75F2 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E358627315C0B009C75F2 /* ImageData.swift */; };
+		68879DFE273262B200AF076A /* BobFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68879DFD273262B200AF076A /* BobFileManager.swift */; };
+		688D3885273263BE002991C2 /* Bob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D3884273263BE002991C2 /* Bob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10933060B7B9EDC580FA0B5F /* Pods-Bobbowl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bobbowl.debug.xcconfig"; path = "Target Support Files/Pods-Bobbowl/Pods-Bobbowl.debug.xcconfig"; sourceTree = "<group>"; };
+		6818F7B02733D95D00586261 /* AddTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTabViewController.swift; sourceTree = "<group>"; };
 		68481DB6272FB86E00D59853 /* Bobbowl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bobbowl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68481DB9272FB86E00D59853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68481DC0272FB86E00D59853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		68481DC7272FB87100D59853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68481DD1272FC47C00D59853 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		68481DDB272FC8C200D59853 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		68481DE1272FE02A00D59853 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		68481DE4272FE6A600D59853 /* Constrants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constrants.swift; sourceTree = "<group>"; };
+		68481DEB272FF64900D59853 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		68481DEE272FF67D00D59853 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		6853AEC82738E65C008BA8FF /* PostMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		687E357A27311B18009C75F2 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		687E358627315C0B009C75F2 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		68879DFD273262B200AF076A /* BobFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobFileManager.swift; sourceTree = "<group>"; };
+		688D3884273263BE002991C2 /* Bob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bob.swift; sourceTree = "<group>"; };
+		7F41C503647B94E0B60D8DE1 /* Pods_Bobbowl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bobbowl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15469987F5FE14FD5020AED /* Pods-Bobbowl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bobbowl.release.xcconfig"; path = "Target Support Files/Pods-Bobbowl/Pods-Bobbowl.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4F22D853028797E1F55E3F /* Pods_Bobbowl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DC1808D7B26D3C93EA94592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10933060B7B9EDC580FA0B5F /* Pods-Bobbowl.debug.xcconfig */,
+				D15469987F5FE14FD5020AED /* Pods-Bobbowl.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		552027B2FF16BFAD8FE6B42E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F41C503647B94E0B60D8DE1 /* Pods_Bobbowl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		68481DAD272FB86E00D59853 = {
 			isa = PBXGroup;
 			children = (
 				68481DB8272FB86E00D59853 /* Bobbowl */,
 				68481DB7272FB86E00D59853 /* Products */,
+				0DC1808D7B26D3C93EA94592 /* Pods */,
+				552027B2FF16BFAD8FE6B42E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +100,14 @@
 		68481DB8272FB86E00D59853 /* Bobbowl */ = {
 			isa = PBXGroup;
 			children = (
+				68879E012732635100AF076A /* Model */,
 				68481DDE272FC8C500D59853 /* View */,
 				68481DD4272FC48A00D59853 /* Controller */,
 				68481DBF272FB86E00D59853 /* Main.storyboard */,
 				68481DC2272FB87100D59853 /* Assets.xcassets */,
 				68481DC4272FB87100D59853 /* LaunchScreen.storyboard */,
 				68481DC7272FB87100D59853 /* Info.plist */,
+				68481DE4272FE6A600D59853 /* Constrants.swift */,
 			);
 			path = Bobbowl;
 			sourceTree = "<group>";
@@ -71,6 +117,9 @@
 			children = (
 				68481DB9272FB86E00D59853 /* AppDelegate.swift */,
 				68481DD1272FC47C00D59853 /* AlbumViewController.swift */,
+				6818F7B02733D95D00586261 /* AddTabViewController.swift */,
+				68481DEB272FF64900D59853 /* CalendarViewController.swift */,
+				68481DE1272FE02A00D59853 /* PostViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -79,8 +128,21 @@
 			isa = PBXGroup;
 			children = (
 				68481DDB272FC8C200D59853 /* AlbumCollectionViewCell.swift */,
+				68481DEE272FF67D00D59853 /* CalendarCollectionViewCell.swift */,
+				687E357A27311B18009C75F2 /* PostCollectionViewCell.swift */,
+				6853AEC82738E65C008BA8FF /* PostMainCollectionViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		68879E012732635100AF076A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68879DFD273262B200AF076A /* BobFileManager.swift */,
+				688D3884273263BE002991C2 /* Bob.swift */,
+				687E358627315C0B009C75F2 /* ImageData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68481DCA272FB87100D59853 /* Build configuration list for PBXNativeTarget "Bobbowl" */;
 			buildPhases = (
+				E8FAA608E6688BE10E087054 /* [CP] Check Pods Manifest.lock */,
 				68481DB2272FB86E00D59853 /* Sources */,
 				68481DB3272FB86E00D59853 /* Frameworks */,
 				68481DB4272FB86E00D59853 /* Resources */,
+				456806FCDDF45BEAEB0104B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,13 +212,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		456806FCDDF45BEAEB0104B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bobbowl/Pods-Bobbowl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bobbowl/Pods-Bobbowl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bobbowl/Pods-Bobbowl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8FAA608E6688BE10E087054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bobbowl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68481DB2272FB86E00D59853 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6818F7B12733D95D00586261 /* AddTabViewController.swift in Sources */,
+				68481DEC272FF64900D59853 /* CalendarViewController.swift in Sources */,
+				68481DEF272FF67D00D59853 /* CalendarCollectionViewCell.swift in Sources */,
+				68481DE2272FE02A00D59853 /* PostViewController.swift in Sources */,
 				68481DDC272FC8C200D59853 /* AlbumCollectionViewCell.swift in Sources */,
+				687E357B27311B18009C75F2 /* PostCollectionViewCell.swift in Sources */,
+				6853AEC92738E65C008BA8FF /* PostMainCollectionViewCell.swift in Sources */,
 				68481DD2272FC47C00D59853 /* AlbumViewController.swift in Sources */,
+				687E358727315C0B009C75F2 /* ImageData.swift in Sources */,
+				68481DE5272FE6A600D59853 /* Constrants.swift in Sources */,
+				68879DFE273262B200AF076A /* BobFileManager.swift in Sources */,
+				688D3885273263BE002991C2 /* Bob.swift in Sources */,
 				68481DBA272FB86E00D59853 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +415,7 @@
 		};
 		68481DCB272FB87100D59853 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10933060B7B9EDC580FA0B5F /* Pods-Bobbowl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +435,7 @@
 		};
 		68481DCC272FB87100D59853 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15469987F5FE14FD5020AED /* Pods-Bobbowl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

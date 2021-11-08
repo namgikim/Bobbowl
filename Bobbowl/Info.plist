@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>식사를 등록할 때 사진을 불러오기 위한 권한이 필요합니다.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>식사를 등록할 때 사진 촬영에 권한이 필요합니다.</string>
 </dict>
 </plist>
